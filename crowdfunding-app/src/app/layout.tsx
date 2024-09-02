@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThirdwebProvider } from "thirdweb/react";
 import Navbar from "@/components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: "thirdweb SDK + Next starter",
+  title: "Crowdfunding Web3 using thirdweb SDK + Next starter",
   description:
-    "Starter template for using thirdweb SDK with Next.js App router",
+    "Crowdfunding using starter template from thirdweb SDK with Next.js App router",
 };
 
 export default function RootLayout({
